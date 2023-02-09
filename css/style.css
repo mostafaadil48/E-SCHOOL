@@ -1,0 +1,248 @@
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    background: #F0FFF0;
+    min-height: 100vh;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+
+    
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    align-items: center;
+    flex-grow: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #56548c;
+}
+.btn-sing {
+    color: rgb(255, 255, 255);
+    background: rgb(33, 181, 115);
+    font-size: 16px;
+    line-height: 14px;
+    padding: 10px 19px;
+    border-radius: 50px;
+}
+
+.btn-sing:hover{
+    color: #fff;
+    background: #316951;
+}
+
+.hero-feature h5{
+    color: #FD511A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero-feature h1{
+
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    }
+.hero-feature h1 span{
+    color: #21B573;
+}
+.hero-feature p{
+
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+}
+.btn-custom{
+    
+    color: #fff;
+    background: #21B573;
+    font-size: 16px;
+    line-height:  19px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    
+/* border: 1px solid #000000; */
+}
+.btn-custom:hover{
+    color: #fff;
+    background: #316951;
+}
+.feature-content{
+    
+    background: #f8fffb;
+    padding: 50px 0;
+    }
+
+.feature-content img{
+
+    width: 30%;
+}
+.feature-content h2{
+     
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+.feature-content p{
+    
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.feature-content:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.vg{
+    min-height: 80vh;
+    align-items: center;
+}
+.OnlineCourses h1{
+
+    color: #413960;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.course{
+    
+    background: #fff;
+    padding: 20px;   
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1); 
+    border-radius: 18px;
+}
+
+.course h2{
+
+    color: #413960;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 29px;
+}
+.course h5{
+
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.btn-course{
+
+    color: #fff;
+    background: #21B573;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0;
+    padding: 8px 28px;
+    border-radius: 33px;
+    margin: 20px 0px;
+}
+.course ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.course ul li{
+    
+color: #585859;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.course ul li i{
+    
+    margin-right: 5px;
+}
+.btn-course:hover{
+    color: #fff;
+    background: #316951;
+}
+.client img{
+
+    width: 45%;
+    margin: auto;
+    border: 2px solid #21b573;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 70px;
+}
+.client p{
+    
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* footer css */
+footer{
+    background: #282531;color: #fff;
+}
+footer p{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+footer ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    
+    font-weight: 200;
+}
+footer ul li:first-child{
+    font-weight: 600;
+}
+.copy p{
+    
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 68px;
+
+}
+
+.Useful-Link ul li a{
+
+    text-decoration: none;
+}
+.Useful-Link ul li a i{
+    margin-right: 8px;
+
+}
